@@ -1,0 +1,20 @@
+body {
+  background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+}
+
+.container {
+  max-width: 900px;
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: "Aboreto", cursive;
+}
+
+h2,
+p {
+  font-family: "Anek Telugu", sans-serif;
+}
+
+i {
+}
