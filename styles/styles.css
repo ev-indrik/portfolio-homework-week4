@@ -1,5 +1,11 @@
+:root {
+  --primary-color: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+  --heading-font-family: "Aboreto", cursive;
+  --additional-font-family: "Anek Telugu", sans-serif;
+}
+
 body {
-  background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+  background: var(--primary-color);
 }
 
 .container {
@@ -8,13 +14,10 @@ body {
 }
 
 h1 {
-  font-family: "Aboreto", cursive;
+  font-family: var(--heading-font-family);
 }
 
 h2,
 p {
-  font-family: "Anek Telugu", sans-serif;
-}
-
-i {
+  font-family: var(--additional-font-family);
 }
