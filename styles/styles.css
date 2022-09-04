@@ -55,6 +55,12 @@ a .additional-buttons:hover,
   background: var(--primary-color);
 }
 
+.learn-more {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: left;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: larger;
@@ -72,8 +78,6 @@ a .additional-buttons:hover,
     margin: 55px auto;
   }
   .learn-more {
-    display: flex;
     justify-content: center;
-    margin-bottom: 15px;
   }
 }
