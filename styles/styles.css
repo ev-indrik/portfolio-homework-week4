@@ -25,6 +25,11 @@ p {
   font-family: var(--additional-font-family);
 }
 
+h3 {
+  font-family: var(--heading-font-family);
+  font-size: large;
+}
+
 .btn-box {
   max-width: 300px;
   margin: 85px auto;
@@ -71,6 +76,10 @@ a .additional-buttons:hover,
     text-align: center;
   }
 
+  h3 {
+    text-align: center;
+  }
+
   p {
     text-align: center;
   }
@@ -81,3 +90,11 @@ a .additional-buttons:hover,
     justify-content: center;
   }
 }
+
+@media (max-width: 768px) {
+  .portrait-about {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+} ;
