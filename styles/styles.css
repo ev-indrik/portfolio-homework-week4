@@ -36,7 +36,8 @@ a .additional-buttons {
   background: var(--primary-color);
 }
 
-a .additional-buttons:hover {
+a .additional-buttons:hover,
+.button-learn-more:hover {
   color: darkolivegreen;
 }
 
@@ -48,6 +49,10 @@ a .additional-buttons:hover {
   text-align: center;
   font-size: large;
   opacity: 0.7;
+}
+
+.button-learn-more {
+  background: var(--primary-color);
 }
 
 @media (max-width: 576px) {
