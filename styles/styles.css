@@ -71,4 +71,9 @@ a .additional-buttons:hover,
   .btn-box {
     margin: 55px auto;
   }
+  .learn-more {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
 }
