@@ -85,6 +85,21 @@ a .additional-buttons:hover,
   max-height: 160px;
 }
 
+.homepage-link {
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
+  font-size: small;
+}
+
+.homepage-link:hover {
+  color: grey;
+}
+
+.projects-images img {
+  object-fit: contain;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: larger;
@@ -111,9 +126,13 @@ a .additional-buttons:hover,
 }
 
 @media (max-width: 768px) {
+  .projects-box {
+    max-width: 750px;
+  }
+
   .portrait-about {
     max-width: 300px;
     margin: 0 auto;
     padding: 10px;
   }
-} ;
+}

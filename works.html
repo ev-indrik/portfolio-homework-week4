@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Anek+Telugu:wght@200;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/2db88bc66d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>My projects</title>
+  </head>
+
+  <body>
+    <footer>
+      <div class="container">
+        <nav
+          class="navbar navbar-expand-lg bg-customized fixed-top border border-2 rounded-4 mx-2"
+        >
+          <div class="container-fluid">
+            <div class="icon-wrapper">
+              <a class="navbar-brand" href="/"
+                ><img
+                  src="./images/aquatic_nature_ocean_sea_icon.png"
+                  alt="whale"
+                />
+              </a>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="./works.html"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Projects
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="./works.html#hug-project-box"
+                        >Hug an 🐘</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="./works.html#weather-project-box"
+                        >Weather app</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </footer>
+
+    <h2 class="text-center">
+      <span class="whale-icon me-3"
+        ><img src="./images/aquatic_nature_ocean_sea_icon.png" alt="whale"
+      /></span>
+      this is my
+    </h2>
+    <h1>Projects page</h1>
+    <div class="container-fluid projects-box">
+      <div class="row m-2">
+        <div class="col-md m-1 border border-2 rounded-4">
+          <h2 id="hug-project-box" class="p-2">Hug an elephant</h2>
+          <p>
+            This is my first project made for your smile and good mood. It is
+            still under construction, i really want to improve it and make more
+            responsive and smooth. During its construction were used HTML, CSS,
+            JavaScript. Also there is a whale hidden ;)
+          </p>
+          <div class="learn-more">
+            <a
+              href="https://www.shecodes.io/workshops/shecodes-basics-462568a2-9f1f-4718-b5b0-9cf76e0653aa/projects/937917"
+              type="button"
+              class="btn mt-3 border border-2 rounded-pill button-learn-more"
+              target="_blank"
+              >Launch</a
+            >
+          </div>
+        </div>
+        <div
+          class="col-md m-1 border border-2 rounded-4 projects-images d-flex align-self-md-stretch"
+        >
+          <img
+            class="rounded-4 img-fluid"
+            src="./images/hug_elephant.png"
+            alt="elephant_project_photo_01"
+          />
+        </div>
+        <div
+          class="col-md m-1 border border-2 rounded-4 projects-images d-flex align-self-md-stretch"
+        >
+          <img
+            class="img-fluid rounded-4"
+            src="./images/hug_elephant_02.png"
+            alt="elephant_project_photo_02"
+          />
+        </div>
+        <div
+          class="col-md m-1 border border-2 rounded-4 projects-images d-flex align-self-md-stretch"
+        >
+          <img
+            class="img-fluid rounded-4"
+            src="./images/hug_elephant_03.png"
+            alt="elephant_project_photo_03"
+          />
+        </div>
+      </div>
+
+      <div class="row m-2 mt-4">
+        <div class="col-md m-1 border border-2 rounded-4">
+          <h2 id="weather-project-box" class="p-2">Hug an elephant</h2>
+          <p>
+            Weather app made with using HTML, CSS, JavaScript, open-source
+            API-s. Five days forecast is included. Current temperature could be
+            got by city or gps-position. Also temperature might be displayed in
+            Celsius or Fahrenheit and vice versa.
+          </p>
+          <div class="learn-more">
+            <a
+              href="https://profound-moxie-99e618.netlify.app/"
+              type="button"
+              class="btn mt-3 border border-2 rounded-pill button-learn-more"
+              target="_blank"
+              >Launch</a
+            >
+          </div>
+        </div>
+        <div
+          class="col-md m-1 border border-2 rounded-4 projects-images d-flex align-self-md-stretch"
+        >
+          <img
+            class="rounded-4 img-fluid"
+            src="./images/weather_app.png"
+            alt="weather_project_photo_01"
+          />
+        </div>
+        <div
+          class="col-md m-1 border border-2 rounded-4 projects-images d-flex align-self-md-stretch"
+        >
+          <img
+            class="img-fluid rounded-4"
+            src="./images/weather_app_02.png"
+            alt="weather_project_photo_02"
+          />
+        </div>
+        <div
+          class="col-md m-1 border border-2 rounded-4 projects-images d-flex align-self-md-stretch"
+        >
+          <img
+            class="img-fluid rounded-4"
+            src="./images/weather_app_03.png"
+            alt="weather_project_photo_03"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
