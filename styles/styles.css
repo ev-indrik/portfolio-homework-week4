@@ -96,8 +96,10 @@ a .additional-buttons:hover,
   color: grey;
 }
 
-.projects-images img {
-  object-fit: contain;
+.projects-images {
+  height: 100%;
+  /* width: 100%; */
+  object-fit: cover;
 }
 
 @media (max-width: 576px) {
