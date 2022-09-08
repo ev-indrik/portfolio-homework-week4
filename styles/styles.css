@@ -27,6 +27,7 @@ h1 {
 h2,
 p {
   font-family: var(--additional-font-family);
+  font-size: large;
 }
 
 h3 {
@@ -46,7 +47,8 @@ a .additional-buttons {
 }
 
 a .additional-buttons:hover,
-.button-learn-more:hover {
+.button-learn-more:hover,
+.contact-section-text:hover {
   color: darkolivegreen;
 }
 
@@ -98,8 +100,27 @@ a .additional-buttons:hover,
 
 .projects-images {
   height: 100%;
-  /* width: 100%; */
+  width: 100%;
   object-fit: cover;
+}
+
+.logo-wrapper {
+  width: 30px;
+  height: 30px;
+}
+
+.logo-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact-section-text {
+  text-decoration: none;
+  font-family: var(--additional-font-family);
+  opacity: 0.7;
+  color: black;
+  font-size: small;
 }
 
 @media (max-width: 576px) {
