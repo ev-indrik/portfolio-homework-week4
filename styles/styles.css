@@ -123,6 +123,10 @@ a .additional-buttons:hover,
   font-size: small;
 }
 
+a.nav-link.active-link {
+  color: olive;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: larger;
@@ -149,10 +153,6 @@ a .additional-buttons:hover,
 }
 
 @media (max-width: 768px) {
-  .projects-box {
-    max-width: 750px;
-  }
-
   .portrait-about {
     max-width: 300px;
     margin: 0 auto;
