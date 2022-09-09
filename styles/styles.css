@@ -127,6 +127,21 @@ a.nav-link.active-link {
   color: olive;
 }
 
+footer .cosial-links-footer a {
+  margin: 0px 15px 10px;
+  padding: 3px 15px;
+  background: var(--primary-color);
+  border-radius: 9px;
+  font-size: 18px;
+  color: black;
+  opacity: 0.7;
+}
+
+footer .cosial-links-footer a:hover {
+  background: var(--additional-color);
+  color: olive;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: larger;
