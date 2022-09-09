@@ -132,6 +132,16 @@ a.nav-link.active-link {
   color: olive;
 }
 
+.credits-section-link {
+  text-decoration: none;
+  opacity: 0.6;
+  color: black;
+}
+
+.credits-section-link:hover {
+  color: olive;
+}
+
 footer .cosial-links-footer a {
   margin: 0px 15px 10px;
   padding: 3px 15px;
